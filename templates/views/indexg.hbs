@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/header.css">
+    <script src="js/index.js"></script>
+    <style>
+        /* Custom CSS for styling the button */
+        
+
+    </style>
+    <title>Govind Jha</title>
+</head>
+
+<body >
+   <br style="padding-top: 10px;">
+    {{>headers}}
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Kaushan+Script&size=40&duration=3500&color=447FF7&background=FFFFFF00&center=true&vCenter=true&width=650&height=55&lines=Hey!+It's+Govind+Jha+%F0%9F%91%8B%F0%9F%8F%BB;I+am+a+Software+Developer+%F0%9F%A7%91%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB;I+am+from+India+%F0%9F%87%AE%F0%9F%87%B3;I+have+3%2B+years+of+experience+%F0%9F%93%88;In+building+backend+infrastructures+%E2%9A%99%EF%B8%8F" alt="Govind Jha" width="850" height="65">
+</div>
+    <section id="about" class="py-5" style="border-top-right-radius: 30px;">
+        <div style="display: flex; justify-content: flex-end;">
+            <button id="togbutton1" style="background-color: #eef2f6; color: #0b0b0b; padding: 1px 10px; border: none; border-radius: 10px; cursor: pointer; box-shadow: 0; margin-left:10px; " onclick="toggleDarkMode()">Dark</button>
+
+            <button id="togbutton2" style="background-color: #eaebec; color: #060606; padding: 5px 10px; border: none; border-radius: 10px; cursor: pointer; box-shadow: 0; margin-left:0px; margin-right:170px" onclick="toggleLightMode()">Light</button>
+        </div>
+
+        <div class="container" >
+            <div class="card" id="card" style="border-top-left-radius: 100px;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img.jpg" id="meraimg" style="width: 300px; filter: drop-shadow(0px 0px 10px rgba(9, 9, 9, 0.5));" alt="Govind Jha" class="img-fluid rounded-circle">
+                            <button class="skills-button" id="tool" onclick="showSkills()">Show Skills</button>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="card-title" id="o1">About Govind Jha</h3>
+                            <p class="card-text" id="o2">Govind Jha is a Full Stack Developer with a passion for creating robust and scalable web applications. He holds a Bachelor's degree in Computer Science from [Your University].</p>
+                            <h5 id="o3">Education</h5>
+                            <ul>
+                                <li id="o4">Bachelor's in Computer Science - Institute of Engineering and Management Kolkata</li>
+                            </ul>
+                            <h5 id="o5">Skills</h5>
+                            <p id="o6">Govind has expertise in:</p>
+                            <ul id="o7">
+                                <li>Front-end development using HTML, CSS, and JavaScript</li>
+                                <li>Back-end development with Node.js and Express</li>
+                                <li>Database design and management using MongoDB</li>
+                                <li>React.js for building interactive user interfaces</li>
+                                <li>Responsive and mobile-first design</li>
+                            </ul>
+                            <h5 id="o8">Experience</h5>
+                            <p id="o9">Govind has [3 years] of experience working in the software development industry. He has successfully delivered projects for various clients, demonstrating his commitment to quality and innovation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{>footers}}
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script class="">
+        
+
+            
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.skills-button {
+   
+    
+    color: black;
+    padding: 10px 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+    border: none;
+   
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow for a lifted look */
+    transition: background-color 0.9s ease; /* Add smooth transition effect */
+    /* background-image: linear-gradient(#86888f , #0a0c0e); */
+}
+
+.skills-button:hover {
+    background-color: #4a95e6;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-image: radial-gradient(
+        circle farthest-corner at center top,
+        #FFF 0%, #D8DFE9 100%
+    );
+}
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #3f3e3e;
+    color: #fbf9f9;
+}
+
+/* Add styles for dark mode button */
+.dark-mode-button {
+    background-color: #1d2024;
+    color: #100f0f;
+    padding: 10px 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.9s ease;
+    background-image: linear-gradient(to bottom, #1d2024, #0a0c0e);
+}
+
+.dark-mode-button:hover {
+    background-color: #e1e4e8;
+    color: black;
+}
